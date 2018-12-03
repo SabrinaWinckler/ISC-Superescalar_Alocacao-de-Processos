@@ -3,16 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gerais;
+package view;
 
-import java.util.ArrayList;
+import armazenamento.Disco;
 
 /**
  *
  * @author Sabrina Winckler
  */
-public class Nodo {
-    Nodo anterior;
-    Estrutura estrutura;
-    ArrayList<Nodo> proximo;
+public class Principal {
+    public static void main(String[] args){
+        Disco disco = new Disco(5);
+        
+    }
 }
